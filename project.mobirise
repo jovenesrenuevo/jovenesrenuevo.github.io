@@ -25,7 +25,7 @@
         "display4Size": 0.9,
         "isRoundedButtons": false,
         "isScrollToTopButton": false,
-        "arrowColor": "#4ea2e3"
+        "arrowColor": "#5d5de7"
       },
       "additionalSetColors": [
         "#0d0d43"
@@ -44,13 +44,14 @@
     "uniqCompNum": 25,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
-    "favicon": false,
+    "favicon": "@PROJECT_PATH@/assets/images/jovenes-fondo-128x128.png",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "canonical-url": false
   },
   "pages": {
     "index.html": {
@@ -91,7 +92,8 @@
     "joyce.html": {
       "settings": {
         "title": "Jovenes Renuevo",
-        "order": 14
+        "order": 14,
+        "meta_image": "@PROJECT_PATH@/assets/images/joyce-dev-001-2000x2000.jpg"
       },
       "components": [
         {
